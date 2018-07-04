@@ -1,0 +1,65 @@
+/*
+Theme Name: LeraningWordpress
+Author: Lucila Gaudio
+Author Uri: https://www.linkedin.com/in/lucila-gaudio/
+Version: 1.0
+It´s my firts attempt to make a WordPress theme, I use LearnWebCode tutorial 
+https://www.youtube.com/channel/UCHRp19HU7Y2LwfI0Ai6WAGQ
+*/
+body{
+    font-family: 'Anaheim';
+    min-height: 100vh;
+}
+
+p {
+
+line-height: 1.65em;
+color: #404F7F;
+
+}
+
+a {
+    color: #404F7F;
+    text-decoration: none;
+}
+
+.site-header{
+    border-bottom: 0.05em #404F7F dotted;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+
+.site-footer{
+    border-top: 0.1em #404F7F dotted;
+    bottom: 0px;
+    padding-top: 1em;
+    position:absolute;
+}
+/* Nav items */
+nav div ul {
+    margin: 0;
+    padding: 0;
+}
+nav div ul li {
+    list-style: none !important ;
+    float:left;
+}
+
+/* Nav header */
+
+.site-header nav div ul li {
+   display: block;
+   padding:  1em 2em 0em;
+   margin-right: 0.1em;
+}
+
+.site-header nav div ul li.current-menu-item a:link,
+.site-header nav div ul li.current-menu-item a:visited{
+    color: #3365FF;
+}
+
+/* Footer Menu */
+.site-footer nav div ul li{
+margin-right: 1em;
+padding-right: 2em;
+}
