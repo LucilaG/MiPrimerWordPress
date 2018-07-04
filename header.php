@@ -14,7 +14,7 @@
         <header class="site-header">
             <h1 class="text-center"><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
             <h5 class="text-center"><?php bloginfo('description'); ?></h5>
-            <nav class="site-nav">
+            <nav class="site-nav text-center">
             <?php wp_nav_menu(array('theme_location' => 'header-menu'));?>﻿
             </nav>
         </header>
