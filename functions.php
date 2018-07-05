@@ -17,6 +17,11 @@ if ( ! function_exists( 'my_theme_theme_setup' ) ){
         }
     }
 }
+function myprefix_enqueue_scripts() {
+wp_enqueue_script( 'my-script',  '/wp-content/themes/learningwordpress/index.js', array(), true );
+}
+
+add_action( 'wp_enqueue_scripts', 'myprefix_enqueue_scripts' );
 
 function learningWordpress_resources(){
 
