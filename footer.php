@@ -1,12 +1,12 @@
-        <footer class= "site-footer text-center container">
-
+</div>
+       <footer class= "site-footer text-center container">
             <nav class="site-nav row">
                 <div class="col-12">
                 <?php wp_nav_menu(array('theme_location' => 'footer-menu'));?>
                 </div>
             </nav>
             <div class="row">
-                 <p class="col-12"><?php bloginfo('name'); ?> - &copy; <?php echo date('Y'); ?></p>
+                 <p class="col-12"><span><?php bloginfo('name'); ?></span> - &copy; <?php echo date('Y'); ?></p>
             </div>
         </footer>
 

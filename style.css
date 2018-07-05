@@ -9,12 +9,16 @@ https://www.youtube.com/channel/UCHRp19HU7Y2LwfI0Ai6WAGQ
 body{
     font-family: 'Anaheim';
     min-height: 100vh;
+    position: relative;
+    padding-bottom: 6em; 
 }
 
 p {
 
 line-height: 1.65em;
+font-size: 1.25em;
 color: #404F7F;
+font-family: 'Cutive Mono';
 
 }
 
@@ -22,7 +26,16 @@ a {
     color: #404F7F;
     text-decoration: none;
 }
+/* Articles */
+.articles{
+    height: 100%;
+}
 
+article h3 a {
+    font-family: 'Artifika';
+}
+
+/* Header and Footer*/
 .site-header{
     border-bottom: 0.05em #404F7F dotted;
     margin-bottom: 1em;
@@ -31,17 +44,22 @@ a {
 
 .site-footer{
     border-top: 0.1em #404F7F dotted;
-    position: absolute;
+    position:absolute;
     right: 0;
     bottom: 0;
     left: 0;
-    padding: 1rem;
     width: 100%;
+}
+
+footer  div p span{
+    font-family: 'Homemade Apple';
+    font-size: 0.75em;
 }
 /* Nav items */
 nav div ul {
     margin: 0;
     padding: 0;
+    height: 2.5em;
 }
 nav div ul li {
     list-style: none !important ;
@@ -55,9 +73,6 @@ nav div ul li {
         height: auto;
         margin: 0 auto;
     }
-    .site-footer{
-         position: static;
-    }
 
 }
 
@@ -67,6 +82,7 @@ nav div ul li {
    display: block;
    padding:  1em 2em 0em;
    margin-right: 0.1em;
+   font-size: 1.5em;
 }
 
 .site-header nav div ul li.current-menu-item a:link,

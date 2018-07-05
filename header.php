@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php bloginfo('name');?></title>
     <link href='https://fonts.googleapis.com/css?family=Anaheim' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Artifika' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Cutive Mono' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Homemade Apple' rel='stylesheet'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <?php wp_head(); ?>
 </head>
@@ -18,3 +21,6 @@
             <?php wp_nav_menu(array('theme_location' => 'header-menu'));?>﻿
             </nav>
         </header>
+        <div class="articles">
+
+        
