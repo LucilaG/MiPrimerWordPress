@@ -6,19 +6,28 @@ Version: 1.0
 It´s my firts attempt to make a WordPress theme, I use LearnWebCode tutorial 
 https://www.youtube.com/channel/UCHRp19HU7Y2LwfI0Ai6WAGQ
 */
-
+*{
+    font-family: 'Barlow', sans-serif;
+}
 body {
-    font-family: 'Anaheim';
     min-height: 100vh;
     position: relative;
-    padding-bottom: 10em;
+    padding-bottom: 15em;
+    margin-left: 15em;
+    margin-right: 15em;
+}
+
+h1 a{
+    font-size: 2.5em;
+    font-stretch: semi-expanded;
 }
 
 p {
     line-height: 1.65em;
     font-size: 1.25em;
     color: #404F7F;
-    font-family: 'Cutive Mono';
+    text-align: justify;
+    font-family: 'Barlow', monospace;
 }
 
 a {
@@ -26,15 +35,19 @@ a {
     text-decoration: none;
 }
 
+a:hover{
+    text-decoration: none;
+}
 /* Articles */
 
 .articles {
     height: 100%;
 }
 
-h3,h2{
+h3,
+h2 {
     color: #404F7F;
-    font-family: 'Artifika';
+    font-weight: bolder;
 }
 
 /* Header and Footer*/
@@ -43,6 +56,7 @@ h3,h2{
     border-bottom: 0.05em #404F7F dotted;
     margin-bottom: 1em;
     padding-bottom: 1em;
+    padding-top: 1em;
 }
 
 .site-footer {
@@ -55,9 +69,10 @@ h3,h2{
     width: 100%;
 }
 
-footer div p span {
-    font-family: 'Homemade Apple';
-    font-size: 0.75em;
+footer div p {
+    font-family: 'Bad Script';
+    font-size: 1em;
+    color:black;
 }
 
 /* Nav items */
@@ -81,6 +96,10 @@ nav div ul li {
         height: auto;
         margin: 0 auto;
     }
+    body{
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 /* Nav header */
@@ -92,7 +111,8 @@ nav div ul li {
     font-size: 1.5em;
 }
 
-.site-header nav div ul li.current-menu-item a:link, .site-header nav div ul li.current-menu-item a:visited {
+.site-header nav div ul li.current-menu-item a:link,
+.site-header nav div ul li.current-menu-item a:visited {
     color: #3365FF;
 }
 
@@ -110,6 +130,6 @@ nav div ul li {
     float: left;
 }
 
-.nav_of_post_page{
+.nav_of_post_page {
     min-height: 2em;
 }
